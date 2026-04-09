@@ -8,7 +8,7 @@ module top(
     wire [2:0] mc_state;
     wire mc_out;
 
-    ripple_counter_3bit rc0(
+    ripple_counter_3 rc0(
         .clk(btnC),
         .rst(btnU),
         .q(rc_state)
